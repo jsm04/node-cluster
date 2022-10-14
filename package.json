@@ -1,0 +1,25 @@
+{
+  "name": "desafio-clusterizacion",
+  "version": "0.0.1",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./src/app.js",
+    "dev2": "nodemon ./src/index.js",
+    "devpm2": "pm2 start ./src/configs/ecosystem.config.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.5.0",
+    "minimist": "^1.2.6",
+    "nodemon": "^2.0.20"
+  },
+  "description": ""
+}
